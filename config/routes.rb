@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get '/' => 'contacts#home'
   get '/display_all' => 'contacts#display_all'
+  get '/create_contact' => 'contacts#create_contact'
+  post '/create_contact_result' => 'contacts#create_contact_result'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

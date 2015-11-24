@@ -1,12 +1,12 @@
 <h1>All Contacts:</h1>
 
 <table>
-  <th>
-    <td><strong>First Name</strong></td>
-    <td>Last Name</td>
-    <td>Email</td>
-    <td>Phone</td>
-  </th>
+  <tr>
+    <th>First Name</td>
+    <th>Last Name</td>
+    <th>Email</td>
+    <th>Phone</td>
+  </tr>
 <% @contacts.each do |contact| %>
   <tr>
     <td><%= contact.first_name %></td>
